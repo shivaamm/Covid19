@@ -1,0 +1,167 @@
+/* If the viewport is equal to 340px or less than that */
+
+@media only screen and (max-width: 375px) {
+
+    .primary-button,
+    .secondry-button {
+        padding: .6rem 1rem;
+        font-size: .9rem;
+        padding: .6rem 1rem;
+        border-radius: 8rem;
+    }
+
+    .header_area .main-menu .navbar {
+        padding: 0.5rem 0.3rem;
+    }
+
+    .hero-section {
+        background: none;
+    }
+
+    main .hero-section h4 {
+        margin-top: 0;
+        font-size: 1.3rem;
+        padding-top: 2rem;
+    }
+
+    main .hero-section h1 {
+        font-size: 1.7rem;
+    }
+
+    main .hero-section .site-buttons button {
+        margin-bottom: 2rem;
+    }
+
+    main .corona-stats .heading h1,
+    main .corona-stats .heading h5 {
+        text-align: center;
+    }
+
+    main .intro-section .panel {
+        position: relative !important;
+        left: 0vmin !important;
+    }
+
+    main .intro-section .panel h1 {
+        font-size: 2rem;
+    }
+
+    main .prevention .col-md-3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-size {
+        width: 15rem;
+        height: 24rem;
+    }
+
+    main .gallary-title h1 {
+        font-size: 2rem;
+    }
+
+
+    main .faq h1 {
+        font-size: 2rem;
+    }
+
+    main .faq h3 {
+        font-size: 1.2rem;
+    }
+
+    main .faq .col-sm-12 {
+        margin-bottom: 3rem;
+    }
+
+    main .blogs h1 {
+        font-size: 2rem;
+    }
+
+}
+
+/* If the viewport is equal to 768px or less than that */
+
+@media only screen and (max-width: 768px) {
+
+    .header_area .main-menu .navbar {
+        padding: 0.5rem .9rem;
+    }
+
+
+    main .hero-section .site-buttons button {
+        margin-bottom: 2rem;
+    }
+
+    main .intro-section .row .col-md-12 .panel {
+        position: initial;
+        top: 5vmin;
+        margin-top: 3rem;
+        padding: 10vmin 5vmin 10vmin 5vmin;
+        box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+        font-weight: var(--Rubki);
+    }
+
+    main .faq .col-sm-12 {
+        margin-bottom: 3rem;
+    }
+
+    footer .col-sm-12 .column {
+        display: flex;
+        justify-content: center;
+        margin-left: 2.2rem;
+    }
+
+
+}
+
+
+/* If the viewport is equal to  1910px or less than that */
+
+@media only screen and (max-width: 1910px) {
+
+    main .do-section .skill-card:nth-child(2),
+    main .do-section .skill-card:nth-child(3) {
+        margin-left: 1.4rem;
+    }
+
+    .intro-section {
+        padding: 10rem 0;
+    }
+
+    main .intro-section .row .col-lg-6 .panel {
+        top: 0;
+        /* padding: 6rem 4rem; */
+    }
+}
+
+/* Only for tips section */
+
+@media (max-width: 640px) {
+    .grid-flex {
+        height: auto;
+        display: -webkit-flex;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .col {
+        order: vertical;
+    }
+
+
+    .col-left {
+        -webkit-box-ordinal-group: 0;
+        -webkit-order: 0;
+        -ms-flex-order: 0;
+        order: 0;
+    }
+
+    .col-text div p {
+        padding: .2rem;
+    }
+
+    .Aligner-item {
+        width: 90%;
+    }
+}

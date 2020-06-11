@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap css cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Font awesome Icon CDN -->
+    <script src="https://kit.fontawesome.com/6078c5a9f0.js" crossorigin="anonymous"></script>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/crstyle.css">
+
+    <title>Covid-19 Full Chart -Webapp Creator</title>
+</head>
+
+<body>
+
+
+    <div class="conatiner-fluid text-center my-3">
+        <h1>Covid-19 Update</h1>
+        <h5>Webapp Creator</h5>
+        <a href="index.html" class="badge badge-primary">Go back to Home Page</a>
+    </div>
+
+    <main>
+        <!-- corona status -->
+        <section class="corona-stats">
+            <div class="container">
+                <div class="row">
+                    <div class="heading pb-5">
+                        <h1 class="title-h1">Corona Live Status</h1>
+                        <h5 class="text-color">In India</h5>
+                        <h6 class="text-muted" id="lastupdate">Last Update: </h6>
+                    </div>
+
+                    <div class="container-fluid text-center">
+                        <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+                            <div class="ract confirmed">
+                                <h1 id="confirmed" style="color: orange;"></h1>
+                                <p>Total Active Case</p>
+                            </div>
+                            <div class="ract">
+                                <h1 id="active" style="color: steelblue"></h1>
+                                <p>Active</p>
+                            </div>
+                            <div class="ract">
+                                <h1 id="recovered" style="color: yellowgreen;"></h1>
+                                <p>Recovered</p>
+                            </div>
+                            <div class="ract">
+                                <h1 id="deaths" style="color: orangered;"></h1>
+                                <p>Death</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end corona status -->
+
+        <!-- chart area -->
+
+
+        <section class="chart-area my-5">
+            <div class="row">
+                <div class="container">
+                    <div class="tab-opt d-flex justify-content-center">
+                        <div class="list-group list-group-horizontal-md" id="list-tab" role="tablist">
+                            <a class="list-group-item list-group-item-action active" id="list-home-list"
+                                data-toggle="list" href="#list-home" role="tab" aria-controls="home">Bar Chart</a>
+                            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"
+                                href="#list-profile" role="tab" aria-controls="profile">Line Chart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                            aria-labelledby="list-home-list">
+                            <div class="container">
+                                <div class="heading pb-5">
+                                    <h1 class="title-h1">Bar Chart &mdash;</h1>
+                                    <h5 class="text-color">State Wise</h5>
+                                </div>
+                                <canvas id="barchart">
+
+                                </canvas>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-profile" role="tabpanel"
+                            aria-labelledby="list-profile-list">
+                            <div class="container">
+                                <div class="conatiner">
+                                    <div class="heading pb-5">
+                                        <h1 class="title-h1">Line Chart &mdash;</h1>
+                                        <h5 class="text-color">State Wise</h5>
+                                    </div>
+                                    <canvas id="linechart">
+
+                                    </canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- End Chart area -->
+
+        <!-- Word Covid19 case table -->
+
+        <section class="world-case">
+
+            <!-- Global Case -->
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="heading pb-5">
+                        <h1 class="title-h1">Corona Live Status</h1>
+                        <h5 class="text-color">All Over the World</h5>
+                    </div>
+
+                    <div class="container-fluid text-center">
+                        <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+                            <div class="ract confirmed">
+                                <h1 id="g-confirmed" style="color: orange;"></h1>
+                                <p>Total Active Case</p>
+                            </div>
+                            <div class="ract">
+                                <h1 id="g-recovered" style="color: yellowgreen;"></h1>
+                                <p>Recovered</p>
+                            </div>
+                            <div class="ract">
+                                <h1 id="g-deaths" style="color: orangered;"></h1>
+                                <p>Death</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- End Global Case -->
+
+
+
+            <div class="container table-responsive">
+                <div class="heading pb-5">
+                    <h5 class="text-color">Country Wise Data</h5>
+                </div>
+                <table class="table table-hover table-sm table-borderless" id="tblv">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Country</th>
+                            <th scope="col">Total Confirmed</th>
+                            <th scope="col">Total Recovered</th>
+                            <th scope="col">Total Deaths</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">Too many request! Try to reload the page again.</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Sticky right -->
+
+        <div id="slideout">
+            <p><a href="">Follow Us</a></p>
+            <div id="slideout_inner">
+
+                <div class="container">
+                    <div class="d-flex justify-content-between flex-column">
+                        <div class="follow">
+
+                            <h6>Follow for daily awesome contect on web development:</h6>
+
+                            <span>
+                                <a href="https://www.instagram.com/webapp_creator/" class="text-decoration-none"><i
+                                        class="fab fa-instagram fa-2x"></i></a>
+                                <a href="https://www.facebook.com/webappcreator.in" class="text-decoration-none"><i
+                                        class="fab fa-facebook-square fa-2x"></i></a>
+                                <a href="https://www.linkedin.com/organization-guest/company/webappcreator"
+                                    class="text-decoration-none"><i class="fab fa-linkedin fa-2x"></i></a>
+
+                            </span>
+                        </div>
+                        <div class="follow">
+                            <h6>Join Our Telegram Channel for more updates: </h6>
+                            <span>
+                                <a href="https://t.me/webappcreator" class="text-decoration-none"><i
+                                        class="fab fa-telegram-plane fa-2x"> Join
+                                        Now</i></a>
+                            </span>
+                        </div>
+                        <div class="follow">
+                            <h6>Visit Our Website for blogs and many more: </h6>
+                            <span>
+                                <a href="https://webappcreator.in" class="text-decoration-none"><i
+                                        class="fa fa-link fa-2x">
+                                        Visit
+                                        Now</i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- End World Covid19 case table-->
+    </main>
+
+
+    <!-- bootstrap js cdn -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+    <!-- main js file -->
+    <script src="./js/covidapi.js"></script>
+
+    <!-- CDN of chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,136 @@
+/* corona status */
+
+main .corona-stats {
+    margin-top: 5rem;
+}
+
+main .numbers .ract {
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 15rem;
+    height: 10rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: .5rem;
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+    transition: all 1s ease;
+}
+
+main .numbers .confirmed:hover {
+    background-color: orange;
+    color: white !important;
+
+}
+
+main .numbers {
+    margin-top: 1vmin;
+}
+
+main .numbers .ract h1 {
+    font-size: 3rem;
+    color: black;
+}
+
+main .numbers .ract p {
+    font-family: var(--Patua);
+    font-weight: 700;
+}
+
+/* end corona status */
+
+/* Chart area */
+
+.chart-area .tab-opt .list-group-item {
+    width: 10rem !important;
+    text-align: center;
+}
+
+/* End Chart area */
+
+
+/* Sticky */
+
+
+#slideout {
+
+    border-radius: 5px 0px 0px 5px;
+    right: 0;
+    padding: 12px 0;
+    position: fixed;
+    text-align: center;
+    top: 200px;
+    width: 35px;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    background: #6367fd;
+    z-index: 9999;
+}
+
+#slideout p {
+    padding-top: 5px;
+    margin-left: 10px;
+    line-height: 16px;
+    text-transform: uppercase;
+    font-size: 11px;
+    writing-mode: tb-rl;
+    font-weight: 600;
+    font-family: var(--brand);
+    letter-spacing: 2px;
+}
+
+#slideout p a {
+    color: white;
+}
+
+#slideout_inner {
+    border-radius: 0 0 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    right: -318px;
+    border: 1px solid #e0e0e0;
+    padding: 25px;
+    position: fixed;
+    text-align: left;
+    top: 200px;
+    background: #ffffff;
+    transition-duration: 0.3s;
+    width: 318px;
+    z-index: 9999;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+#slideout:hover {
+    right: 314px;
+}
+
+#slideout:hover #slideout_inner {
+    right: 0;
+}
+
+#slideout .follow {
+    padding-bottom: 1rem;
+}
+
+#slideout .follow i {
+    margin-right: 2rem;
+}
+
+/* End Sticky */
+
+/* Hide Chart for Mobile View */
+
+/* If the viewport is equal to 340px or less than that */
+
+@media only screen and (max-width: 375px) {
+    .chart-area {
+        display: none;
+    }
+}

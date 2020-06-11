@@ -1,0 +1,38 @@
+/* @font-face */
+@import url('https://fonts.googleapis.com/css?family=Oxanium|Poppins|Roboto&display=swap');
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Oxanium', cursive;
+
+}
+
+html,
+body {
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+/* CSS Variables */
+
+:root {
+    --primary-color: #6367fd;
+    --primary-color2: #aadaf1;
+    --title-color: #141313;
+    --text-color: #777777;
+    --border-color: #201f1f17;
+    --gradient-color: linear-gradient(90deg, #6367fd 0%, #aadaf1 100%);
+    --shadow-color: 0px 10px 30px rgba(118, 85, 225, 0.3);
+    --box-shadow: 19px 19px 40px #c9c9c9,
+        -19px -19px 40px #ffffff;
+
+    /* font family variables */
+
+    --roboto: 'Roboto', cursive;
+    --poppins: 'Poppins', sans-serif;
+    --brand: 'Oxanium', cursive;
+}

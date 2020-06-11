@@ -1,0 +1,79 @@
+    /* Global classes */
+
+    .title-text {
+        color: var(--title-color);
+    }
+
+    .text-uppercase {
+        text-transform: uppercase;
+    }
+
+    p.para {
+        color: var(--text-color);
+        font: normal 500 16px/25px var(--roboto);
+    }
+
+    .font-robot {
+        font-family: var(--roboto);
+    }
+
+    .img-size {
+        height: 30rem;
+        width: auto;
+    }
+
+    /* Buttons */
+
+    .button {
+        padding: .9rem 2.2rem;
+        font: normal 500 16px/20px var(--roboto);
+        position: relative;
+        border: 1px solid transparent;
+        border-radius: 10rem;
+    }
+
+    .button.primary-button {
+        background: var(--gradient-color);
+        background-clip: padding-box;
+        color: whitesmoke;
+        transition: all .6s ease;
+    }
+
+    .button.button.primary-button:hover {
+        background: white;
+        background-clip: padding-box;
+        border: 1px solid var(--primary-color);
+        color: black;
+        box-shadow: var(--box-shadow);
+
+    }
+
+    .button.primary-button::after,
+    .button.secondry-button::after {
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        bottom: -2px;
+        right: -2px;
+        background: var(--gradient-color);
+        content: '';
+        z-index: -1;
+        border-radius: 4px;
+
+    }
+
+    .button.secondry-button {
+        background: none;
+        background-clip: padding-box;
+        border: 1px solid var(--primary-color);
+
+        color: var(--primary-color);
+        transition: all .6s ease;
+    }
+
+    .button.button.secondry-button:hover {
+        background: var(--gradient-color);
+        color: whitesmoke;
+        border: 1px solid white;
+        box-shadow: var(--box-shadow);
+    }
