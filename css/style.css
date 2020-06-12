@@ -416,11 +416,16 @@ footer .column a+a {
     padding: 0 0.5em;
 }
 
+.disclaimer{
+    font-size: smaller;
+}
+
+
 /* end footer */
 
 /* Sticky */
 
-
+/*
 #slideout {
 
     border-radius: 5px 0px 0px 5px;
@@ -492,4 +497,5 @@ footer .column a+a {
     margin-right: 2rem;
 }
 
+*/
 /* End Sticky */

@@ -20,7 +20,8 @@ $(document).ready(function () {
     }
 
     navbarFixed();
-
+    
+    // Using api to get the data 
 
     $.getJSON("https://api.covid19india.org/data.json", function (data) {
 
@@ -48,7 +49,7 @@ $(document).ready(function () {
             $(this).animate({
                 Counter: $(this).text()
             }, {
-                duration: 4000,
+                duration: 3000,
                 easing: "swing",
                 step: function (value) {
                     $(this).text(Math.ceil(value));
