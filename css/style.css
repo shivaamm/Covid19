@@ -369,7 +369,7 @@ main .blogs .card img:hover {
 footer {
     background: var(--gradient-color);
     overflow-x: hidden;
-    padding: 14vmin 18vmin;
+    padding: 7vmin 18vmin;
 }
 
 footer p>span>a {
