@@ -5,7 +5,10 @@
 
 @import url('./partials/_global.css');
 
-
+html{
+    scroll-behavior: smooth;
+    
+}
 
 /* Start Navigation */
 
@@ -118,6 +121,7 @@ main .intro-section .row .col-lg-6 .pray img {
     opacity: 0.8;
     width: 90%;
     border-radius: 0.2em;
+    margin-left: 2px;
 }
 
 main .intro-section .row .col-lg-6:last-child {
@@ -137,7 +141,7 @@ main .intro-section .row .col-lg-6 .panel {
 }
 
 main .intro-section .row .col-lg-6 .panel h5 {
-    color: tomato;
+    color: red;
 }
 
 /* end intro section */
