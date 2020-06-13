@@ -58,12 +58,38 @@ html{
 
 .hero-section {
     background: url(../assets/coronavirus.png) no-repeat;
+    margin-top: 1.5rem;
 }
 
+.headingg {
+    display: flex;
+    align-items: center;
+    padding-top: 5rem;
+    font-size: 5.5rem;
+    line-height: 1;
+    vertical-align: middle;
+    margin-bottom: 0rem;
+    letter-spacing: -0.025em;
+  }
+  .headingg-sm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.3125rem;
+    margin-left: 0.25rem;
+  }
+  .headingg-sm .sup {
+    font-size: 2rem;
+    color: #f86168;
+    letter-spacing: 0.04em;
+  }
+  .headingg-sm .sub {
+    font-size: 1.875rem;
+    margin-top: 0.125rem;
+  }
 
 main .hero-section h4 {
-    margin-top: 4rem;
-    padding-top: 8rem;
+    margin-top: 2rem;
+    padding-top: 3rem;
 }
 
 
