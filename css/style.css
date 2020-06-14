@@ -405,6 +405,15 @@ main .prevention .prevent-box .prevention-list ul>li {
 #protect > .container > .section-head{
     margin-top: 3rem;
 }
+#protect > .container > .section-head > .subtitle{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+}
+#protect > .container > .section-head > .title{
+    text-transform: uppercase;
+    font-size: 40px;
+}
 .protect-item {
     display: flex;
     align-items: center;
