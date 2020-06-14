@@ -46,12 +46,18 @@ main .numbers .ract p {
     text-align: center;
 }
 
+.map{
+    margin-left: 6.5rem;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+}
+
 /* End Chart area */
 
 
 /* Sticky */
 
-
+/*
 #slideout {
 
     border-radius: 5px 0px 0px 5px;
@@ -122,6 +128,7 @@ main .numbers .ract p {
 #slideout .follow i {
     margin-right: 2rem;
 }
+*/
 
 /* End Sticky */
 
