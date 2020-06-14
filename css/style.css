@@ -58,7 +58,7 @@ html{
 
 .hero-section {
     background: url(../assets/coronavirus.png) no-repeat;
-    margin-top: 1.5rem;
+    margin-top: 1.7rem;
 }
 
 .headingg {
@@ -91,6 +91,7 @@ main .hero-section h4 {
     margin-top: 2rem;
     padding-top: 3rem;
 }
+
 
 
 /* End Hero Section */
@@ -188,7 +189,7 @@ main .intro-section .row .col-lg-6 .panel h5 {
     margin-top: 3rem;
 }
 .section-cta{
-    margin-top: 2rem;
+    margin-top: 3rem;
     
 }
 
@@ -248,12 +249,7 @@ main .intro-section .row .col-lg-6 .panel h5 {
   }
 }
 
-
 /*end of symptoms */
-
-
-
-
 
 /* Prevention Section */
 
@@ -295,6 +291,56 @@ main .prevention .prevent-box .prevention-list ul>li {
 }
 
 /* End Prevention Section */
+
+/* wash hands */
+
+#handwash{
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.section-subhead > .title{
+    font-weight: 500;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+}
+
+.box4 {
+    text-align: center;
+  }
+  .box4-gfx {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 4px 35px 0px rgba(70, 86, 117, 0.15);
+  }
+  .box4-content {
+    padding-top: 1rem;
+  }
+  .box4-content .title {
+    font-weight: 500;
+    letter-spacing: -0.005em;
+  }
+  .box4-alt .box4-gfx {
+    border: 4px solid #7fb3f2;
+    box-shadow: none;
+  }
+  @media (min-width: 1200px) {
+    .box4-gfx {
+      height: 120px;
+      width: 120px;
+    }
+  }
+  
+
+/* end of wash hands */
+
+
 
 /* tips section */
 
