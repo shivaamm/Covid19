@@ -403,7 +403,7 @@ main .prevention .prevent-box .prevention-list ul>li {
 
 
 #protect > .container > .section-head{
-    margin-top: 3rem;
+    margin-top: 6rem;
 }
 #protect > .container > .section-head > .subtitle{
     text-transform: uppercase;
@@ -754,7 +754,6 @@ footer .input-group .input-group-text {
 
 footer .column a>i {
     color: white;
-
 }
 
 footer .column a+a {
