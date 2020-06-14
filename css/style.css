@@ -51,6 +51,14 @@ html{
     transition: background 1s ease;
 }
 
+.stats{
+    height: 40px;
+    width: 140px;
+    margin-top: 0.5rem;
+    border-radius: 2rem; 
+    text-transform: capitalize;   
+}
+
 
 /* End Navigation */
 
