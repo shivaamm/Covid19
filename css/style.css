@@ -340,6 +340,187 @@ main .prevention .prevent-box .prevention-list ul>li {
 
 /* end of wash hands */
 
+/* treatmentt */
+
+#treatment{
+    background-color: #1a6df2;
+    color: white;
+}
+.text-block > .subtitle{
+    text-transform: uppercase;
+}
+.text-block > .title{
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.box5 {
+    padding: 1.375rem 1.5rem 1.25rem;
+    border-radius: 4px;
+    background-color: #4b7ff0;
+  }
+  .box5 .title {
+    color: #1965ff;
+  }
+  .tc-light .box5 .title {
+    color: #fff;
+  }
+  .box5 p {
+    font-size: 0.9375rem;
+    margin-bottom: 0.375rem;
+  }
+  .box5 p + .title {
+    padding-top: 1.5rem;
+  }
+  .box5 ul + .title {
+    padding-top: 1.5rem;
+  }
+  .box5 ul li {
+    position: relative;
+    font-size: 0.9375rem;
+    line-height: 1.47rem;
+    padding: 0.25rem 0 0.25rem 1.5rem;
+  }
+  .box5 ul li:before {
+    position: absolute;
+    font-family: "Nioicon";
+    content: "";
+    left: 0;
+    top: 0.125rem;
+  }
+  .box5-alt {
+    border: 2px solid #9cc2f7;
+  }
+  @media (min-width: 576px) {
+    .box5 {
+      padding: 2.375rem 2.5rem;
+    }
+  }
+
+/* end of treatment */
+
+
+/* do's and dont's */
+
+
+#protect > .container > .section-head{
+    margin-top: 3rem;
+}
+.protect-item {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .protect-block-gfx{
+      margin-bottom: 2rem;
+  }
+  .protect-gfx {
+    position: relative;
+    background: #fff;
+    height: 86px;
+    width: 80px;
+    border-radius: 50%;
+    border: 1px solid #2a81ea;
+    flex-shrink: 1;
+    padding-top: -4px;
+  }
+  .protect-gfx > img{
+      bottom: 1rem;
+  }
+  .protect-gfx:after {
+    position: absolute;
+    top: 0;
+    font-family: "Nioicon";
+    font-size: 1.0625rem;
+    line-height: 1;
+    border-radius: 50%;
+    color: #fff;
+    height: 1.5rem;
+    width: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .negative .protect-gfx:after {
+    content: "";
+    background: #f86168;
+    left: 0;
+  }
+  .positive .protect-gfx:after {
+    content: "";
+    background: #3dca93;
+    right: 0;
+  }
+  .protect-text .title {
+    font-size: 0.8125rem;
+    color: #2a81ea;
+  }
+  @media (min-width: 576px) {
+    .protect-item.negative {
+      flex-direction: row-reverse;
+      text-align: right;
+    }
+    .negative .protect-gfx {
+      margin-left: 1rem;
+    }
+    .positive .protect-gfx {
+      margin-right: 1rem;
+    }
+    .protect-text .title {
+      font-size: 0.9375rem;
+      margin-bottom: 0;
+    }
+  }
+  @media (min-width: 992px) {
+    .protect-gfx:before {
+      position: absolute;
+      top: 50%;
+      width: 80px;
+      content: "";
+      border-bottom: 1px dashed #7fb3f2;
+    }
+    .negative .protect-gfx:before {
+      left: 100%;
+    }
+    .positive .protect-gfx:before {
+      right: 100%;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .protect-gfx {
+      height: 72px;
+      width: 72px;
+    }
+    .protect-block-gfx {
+      margin-top: 10px;
+      padding-bottom: 2rem;
+    }
+  }
+  @media (min-width: 1200px) {
+    .protect-gfx:before {
+      width: 140px;
+    }
+    .protect-block-gfx {
+      margin-top: 20px;
+    }
+  }
+  @media (max-width: 575px) {
+    .protect-item {
+      flex-direction: column;
+    }
+    .protect-gfx {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .protect-text {
+      text-align: center;
+      padding-top: 0.75rem;
+    }
+  }
+  
+
+/* end of do's and dont's */
+
 
 
 /* tips section */
