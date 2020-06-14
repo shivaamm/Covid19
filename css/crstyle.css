@@ -1,3 +1,23 @@
+/* The progress container (grey background) */
+.progress-container {
+    width: 100%;
+    height: 10px;
+    background: #ccc;
+    position: fixed;
+    margin-bottom: 25px;
+    top: 0;
+    
+  }
+  
+  /* The progress bar (scroll indicator) */
+  .progress-bar {
+    height: 10px;
+    background: #0f53a1;
+    width: 0%;
+    position: fixed;
+  }
+
+
 /* corona status */
 
 main .corona-stats {
