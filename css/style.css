@@ -58,7 +58,8 @@ html{
 
 .hero-section {
     background: url(../assets/coronavirus.png) no-repeat;
-    margin-top: 1.7rem;
+    margin-top: 2.1rem;
+    margin-left: 1rem;
 }
 
 .headingg {
