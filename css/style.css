@@ -121,6 +121,59 @@ main .hero-section h4 {
     padding-top: 3rem;
 }
 
+@media (max-width: 320px) {
+  
+  .headingg{
+    padding-top: 0rem;
+  }
+  .headingg > span{
+    display: flex;
+    font-size: 3rem;  
+    margin-top: 5px;
+  }
+  .headingg-sm .sup{
+    font-size: 1rem;
+  }
+  main .hero-section{
+    margin-left: -0.25rem;
+  }
+}
+
+@media (max-width: 375px) {
+  
+  .headingg{
+    padding-top: 0rem;
+  }
+  
+  .headingg > span{
+    display: flex;
+    font-size: 3.5rem;   
+    margin-left: -3px;
+    margin-top: 5px;
+  }
+  .headingg-sm .sup{
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 425px) {
+  main .hero-section{
+    margin-left: -0.25rem;
+  }
+  .headingg{
+    padding-top: 0rem;
+  }
+  .headingg > span{
+    display: flex;
+    font-size: 4rem;  
+    margin-top: 5px;
+  }
+  .headingg-sm .sup{
+    font-size: 1.7rem;
+  }
+}
+
+
 
 
 /* End Hero Section */
@@ -380,7 +433,7 @@ main .prevention .prevent-box .prevention-list ul>li {
 }
 .text-block > .title{
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 2.8rem;
 }
 .box5 {
     padding: 1.375rem 1.5rem 1.25rem;
@@ -425,6 +478,7 @@ main .prevention .prevent-box .prevention-list ul>li {
     }
   }
 
+
 /* end of treatment */
 
 
@@ -464,6 +518,7 @@ main .prevention .prevent-box .prevention-list ul>li {
   }
   .protect-gfx > img{
       bottom: 1rem;
+      
   }
   .protect-gfx:after {
     position: absolute;
@@ -553,6 +608,38 @@ main .prevention .prevent-box .prevention-list ul>li {
     .protect-text {
       text-align: center;
       padding-top: 0.75rem;
+    }
+    .protect-block-gfx{
+      
+    }
+  }
+  @media (max-width: 425px){
+    .protect-block-gfx{      
+      max-width: max-content;      
+    }
+    .protect-block-gfx > img{
+      height: 18rem;
+      width: 25rem;
+    }
+
+  }
+  @media (max-width: 375px){
+    .protect-block-gfx{      
+      max-width: max-content;      
+    }
+    .protect-block-gfx > img{
+      height: 18rem;
+      width: 22rem;
+    }
+
+  }
+  @media (max-width: 320px){
+    .protect-block-gfx{      
+      max-width: max-content;      
+    }
+    .protect-block-gfx > img{
+      height: 18rem;
+      width: 18rem;
     }
   }
   
