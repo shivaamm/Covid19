@@ -5,3 +5,5 @@ Everything you need to know about corona virus and it's impact :)
   + Direct chat option.
   + New map to check status :)
 Now working on some more features 😁
+
+* Vaccine appointement and doses of various vaccine will be added :)
