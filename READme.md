@@ -11,3 +11,4 @@ Everything you need to know about corona virus and it's impact :)
 Now working on some more features 😁
 
 * Vaccine appointement and doses of various vaccine will be added :)
+* New varient informaton
