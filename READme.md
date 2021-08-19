@@ -1,4 +1,4 @@
-# Covid-19 Updates website
+# Covid-19 Updates Website
 Live here - https://covid19updatess.netlify.app/
 
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fshivaamm%2FCovid19&count_bg=%23443DC8&title_bg=%23272753&icon=exercism.svg&icon_color=%23F1F1F1&title=Welcome+Count&edge_flat=false"/></a>
