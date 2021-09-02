@@ -12,3 +12,4 @@ Now working on some more features 😁
 
 * Vaccine appointement and doses of various vaccine will be added :)
 * New varient information
+* api stopped 
