@@ -10,6 +10,7 @@ Everything you need to know about corona virus and it's impact :)
   + New map to check status :)
 Now working on some more features 😁
 
+## Maintenance
 * Vaccine appointement and doses of various vaccine will be added :)
 * New varient information
 * api stopped 
